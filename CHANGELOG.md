@@ -1,5 +1,52 @@
 # Changelog
 
+## [5.2.0](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/compare/v5.1.0...v5.2.0) (2022-10-04)
+
+
+### Features
+
+* Add geom columns for thelook_ecommerce dataset ([#307](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/307)) ([f39a177](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/f39a177dafd64a2dfed941bfb078ef24cece4b26))
+* Add Municipal Calendar to San Francisco Dataset ([#480](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/480)) ([a21c2ef](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/a21c2efb507d08c794f65572ea16dcadc5124350))
+* Adding a tutorial for the Iowa Liquor dataset ([#419](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/419)) ([b619b71](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/b619b711fb5ab9fd474a12f26876f1b44981078d))
+* Adding New Pipelines To San Francisco Dataset. ([#487](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/487)) ([58cda71](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/58cda718e0404e614a38d3134753491d98d22900))
+* Extract the tabular metadata for Cloud Datasets program ([#452](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/452)) ([1a3d59e](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/1a3d59e4e9b62e0fde53c57be0c0034fbdeb7f92))
+* Migrate the Xenon World Bank WDI dataset  ([#482](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/482)) ([35457a9](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/35457a9e33a929cf2949645693d17dc82340215e))
+* onboard chembl-30 dataset ([#467](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/467)) ([ef9c57b](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/ef9c57bb8b87f5228915bad6a55256812e576935))
+* Onboard COVID-19 Genome Sequence dataset ([#460](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/460)) ([0b7828f](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/0b7828fb5643499ab882e56f82e64d9670dcdbba))
+* Onboard dataset Open Buildings ([#453](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/453)) ([739b6cf](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/739b6cf3a13c06efd588e6cb818a6b21feec1b8e))
+* Onboard EBI CHemBL Previous Data dataset ([#470](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/470)) ([63b4012](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/63b4012f6cc2a7b9beaaf907f2a7644d9eaa23f9))
+* Onboard Fec dataset ([#485](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/485)) ([2da413e](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/2da413e779a90fc1c16c60772d380fb332c04ae1))
+* Onboard Human Variant Annotation dataset ([#438](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/438)) ([ebfe4de](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/ebfe4def2a2f01ae4adcbcc28bbbb0a0af2b40b1))
+* Onboard IDC v10 dataset ([#433](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/433)) ([c2ffc77](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/c2ffc77d0a71fa8a8b78223f83c9d3cd3f2ca2b7))
+* onboard irs 990 ein dataset ([#481](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/481)) ([65544a2](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/65544a2baac5c706e351f9b9c73d8f821ef63880))
+* Onboard MERFISH Mouse Brain Receptor Map dataset ([#457](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/457)) ([4333fca](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/4333fca7aea2343ff8ed53c7436e477544a27e39))
+* Onboard Multilingual Spoken Words Corpus - MLCommons Association dataset ([#461](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/461)) ([22cc27c](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/22cc27c01f6b2bc2d456733813ed047bf44b1294))
+* Onboard NHTSA Traffic Fatalities dataset ([#454](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/454)) ([eb409c4](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/eb409c4aa5eef92b09ed0c2ba85e5bea6e31ba3b))
+* Onboard NOAA Passive Bioacoustic dataset ([#471](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/471)) ([2ecd9ea](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/2ecd9ea99c051418464407947f0eab5fa2fb9586))
+* Onboard Uniref50 dataset ([#443](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/443)) ([dbf2300](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/dbf23007d1033613a3fc0e4026f00cc15eac5e98))
+* Onboard Uniref50 dataset ([#473](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/473)) ([b44d572](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/b44d5724fa2778c339f8437a03cb77271568e83f))
+* YAML custom tag for interpolating GCR image URLs ([#372](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/372)) ([ef901e5](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/ef901e5a511d7a38167af298a06a342528bae7b3))
+
+
+### Bug Fixes
+
+* Added Airport Fee To Schema Files And Pipeline.Yaml In New York Taxi Trips Dataset ([#476](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/476)) ([d94105a](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/d94105a83cd89064f60538275d72e4e1de310ff6))
+* Adds BRL currency in Google Political Ads ([#469](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/469)) ([edd3654](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/edd3654c8501901fb3918feeea0484620c077ca2))
+* AlphaFold dataset - add accession_ids.csv to the bucket ([#451](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/451)) ([cacd9f1](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/cacd9f1fb7b6c9bec982f2eac17ece1505593694))
+* Change Destination Dataset in Noaa Pipelines ([#479](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/479)) ([c7c047c](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/c7c047c73ffb090ec95263c0171e2fde21aec634))
+* Fixing the forecasting issue in the notebook. ([#472](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/472)) ([de7f1fa](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/de7f1fada921423388c1593e0225b7ec9ebd84e0))
+* Increase number of years to back date to 2009 in New York Taxi Trips Dataset ([#445](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/445)) ([a9c5998](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/a9c599821c82dfe06e1e1d0637613a3a6e89ba9b))
+* Remove GKE cluster operator for dataset Census Opportunity Atlas ([#458](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/458)) ([9ecfbc4](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/9ecfbc4630724bc4b01d675243d0ab9dba838dc8))
+* Resolve cluster name mismatch in pipeline.yaml ([#439](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/439)) ([3e8d20d](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/3e8d20dd90f29a8daeaa7d2b34af8360fe383759))
+* Resolve cluster name mismatch in pipeline.yaml ([#440](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/440)) ([d2658f6](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/d2658f6b8d22726a021885d911033e2195aa9e1d))
+* Resolve failure in production for the dataset Open Buildings ([#468](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/468)) ([9a22d5f](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/9a22d5f0f48ee458d7dcad3bc128e9e2bf88d08a))
+* Resolve Issue With Name Node Corruption In New york Dataset ([#459](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/459)) ([59e3aed](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/59e3aeda633698c97588195bc4daf87523e00be8))
+* Resolve null column for csv output and changed copyright year ([#466](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/466)) ([00e636e](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/00e636e440167d4932d982437367f3c50c6c0911))
+* Resolve reference to hard coded bucket. ([#477](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/477)) ([039ff61](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/039ff616b77fd4558e9daa139526be83ca94e6ff))
+* Resolve source file location and format issue in the New York Taxi Trips dataset ([#441](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/441)) ([13a829f](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/13a829f34a1f1e9242285e7d311ee558f78390da))
+* Resolve variables. ([#464](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/464)) ([3c34e7e](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/3c34e7ee96b1723d2d4ba6329a1362cf75598e23))
+* Update project parameters for COVID-19 Genome Sequence dataset ([#462](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/issues/462)) ([78d55d9](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/commit/78d55d9bd8c39d872a19c1234c2d7b0ee7b926a6))
+
 ## [5.1.0](https://github.com/GoogleCloudPlatform/public-datasets-pipelines/compare/v5.0.0...v5.1.0) (2022-07-30)
 
 
